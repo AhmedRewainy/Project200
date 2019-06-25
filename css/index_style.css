@@ -1,0 +1,136 @@
+
+body
+{
+    font-family: "segoe ui light";
+}
+#options-container
+{
+	position: fixed;
+	top: 100px;
+	left: 0px;
+	z-index: 654654;
+}
+#options-box
+{
+	background-color: #ccc;
+	float: left;
+	padding: 15px;
+}
+#options-box .img-change
+{
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+#options-box ul li
+{
+	width: 25px;
+	height: 25px;
+	background-color: orange;
+	display: inline-block;
+	cursor: pointer;
+}
+
+#toggleBtn
+{
+	background-color: teal;
+	color: #fff;
+	padding: 10px;
+	float: left;
+	cursor: pointer;
+}
+
+
+#home
+{
+    overflow: auto;
+    height: 630px;
+    background-size: 100% 100%;
+	background-image: url(../images/bg2.jpg)
+}
+.navbar-brand img
+{
+    width: 70px;
+    height: 50px;
+}
+
+
+.slide
+{
+    width: 80%;
+}
+.carousel-indicators li
+{
+    height: 30px;
+    border-radius: 50%;
+}
+.test
+{
+    color: red;
+    font-size: 50px;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+.test:hover
+{
+    color: gray;
+    background-color: red;
+}
+
+.item
+{
+    background-color: #09c;
+}
+
+.member
+{
+    position: relative;
+}
+.member .mem-caption
+{
+    background-color: #0591b1;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-left: 10px;
+}
+.member .mem-caption:before
+{
+    content: "";
+    background-color: #0591b1;
+    height: 100%;
+    width: 25px;
+    position: absolute;
+    top: 0;
+    -webkit-transform: skewX(20deg);
+    transform: skewX(20deg);
+    right: 90%;
+}
+
+.features
+{
+    background-image: url(../images/bg2.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.features .feature
+{
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
